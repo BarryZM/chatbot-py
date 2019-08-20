@@ -3,13 +3,13 @@ import os
 
 
 PROJECT_ROOT, _ = os.path.split(__file__)
-PROJECT_NAME = 'chatbot'
-VERSION = '2.5'
+PROJECT_NAME = 'chatbot-py'
+VERSION = '2.6'
 PROJECT_AUTHORS = 'lb'
 PROJECT_EMAILS = '423497786@qq.com'
-PROJECT_URL = 'https://github.com/lb423497786/chatbot-py'
+PROJECT_URL = 'https://github.com/lin423497786/chatbot-py'
 SHORT_DESCRIPTION = (
-    'chatbot is a machine learning, conversational dialog engine.'
+    '中文聊天机器人， 根据自己的语料训练出自己想要的聊天机器人，可以用于智能客服、在线问答、智能聊天等场景!'
 )
 
 
