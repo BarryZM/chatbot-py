@@ -1,0 +1,7 @@
+jieba
+sqlalchemy
+fuzzywuzzy
+python-Levenshtein
+# ext
+python-forecastio
+geocoder
