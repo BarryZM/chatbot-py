@@ -1,5 +1,5 @@
 from .tokenizer import jieba_segment as segment
-from fuzzywuzzy import fuzz
+from difflib import SequenceMatcher
 
 
 class Comparator:
@@ -31,9 +31,14 @@ class LevenshteinDistance(Comparator):
         if not statement or not other_statement:
             return 0
 
+        similarity = SequenceMatcher(
+            None,
+            statement,
+            other_statement
+        )
+
         # Calculate a decimal percent of the similarity
-        percent = fuzz.ratio(statement, other_statement) / 100
-        # percent = fuzz.ratio(self._cut_statement(statement), self._cut_statement(other_statement)) / 100
+        percent = round(similarity.ratio(), 2)
 
         return percent
 

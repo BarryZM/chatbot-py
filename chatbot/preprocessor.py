@@ -1,5 +1,3 @@
-import re
-
 def clean_whitespace(statement):
     """
     Remove any consecutive whitespace characters from the statement
