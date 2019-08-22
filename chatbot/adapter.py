@@ -295,7 +295,7 @@ class WhatCanIDo(LogicAdapter):
                     index += 1
                     answer += '{}. {}\n'.format(index, dynamic_qa.question)
 
-                answer += '{}. 我的大脑还植入了{}条与电脑有关的知识,你可以问我关于这方面的问题\n'.format(
+                answer += '{}. 我的大脑还植入了{}条知识\n'.format(
                     index + 1,
                     self.storage.count(statement_table_name) - index
                 )

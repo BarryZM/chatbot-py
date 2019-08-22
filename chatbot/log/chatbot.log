@@ -1,69 +1,62 @@
-2019-08-20 16:56:25 [chatbot] [adapter.py:145] [INFO] [18128]: the keyword of the "今天天气如何?" statement is "今天天气"
-2019-08-20 16:56:25 [chatbot] [adapter.py:160] [INFO] [18128]: unable to find database data using keywords, change to full library comparison
-2019-08-20 16:56:25 [chatbot] [adapter.py:145] [INFO] [18128]: the keyword of the "今天天气如何?" statement is "今天天气"
-2019-08-20 16:56:25 [chatbot] [adapter.py:160] [INFO] [18128]: unable to find database data using keywords, change to full library comparison
-2019-08-20 16:56:25 [chatbot] [adapter.py:183] [DEBUG] [18128]: the similarity between the statement "今天天气如何?" and the statement "今天天气如何?" is 1.0
-2019-08-20 16:56:25 [chatbot] [chatbot.py:209] [INFO] [18128]: add "re.split" as the answer to "test"
-2019-08-20 16:56:25 [chatbot] [chatbot.py:209] [INFO] [18128]: add "早餐当中吃鸡蛋，的确是对身体有很大的益处" as the answer to "早上吃鸡蛋对身体好吗"
-2019-08-20 16:56:25 [chatbot] [chatbot.py:87] [INFO] [18128]: the processing the statement "test"
-2019-08-20 16:56:25 [chatbot] [chatbot.py:92] [INFO] [18128]: after the preprocessor "chatbot.preprocessor.clean_whitespace" processing, the statement becomes "test"
-2019-08-20 16:56:25 [chatbot] [chatbot.py:147] [INFO] [18128]: not processing the statement using "chatbot.adapter.WhatCanIDo"
-2019-08-20 16:56:25 [chatbot] [chatbot.py:147] [INFO] [18128]: not processing the statement using "chatbot.adapter.DomainManager"
-2019-08-20 16:56:25 [chatbot] [chatbot.py:103] [INFO] [18128]: "chatbot.adapter.BestMatch" adapter starts matching
-2019-08-20 16:56:25 [chatbot] [adapter.py:145] [INFO] [18128]: the keyword of the "test" statement is "test"
-2019-08-20 16:56:25 [chatbot] [adapter.py:167] [INFO] [18128]: use keywords to find "1" pieces of data and use it for comparison
-2019-08-20 16:56:25 [chatbot] [adapter.py:183] [DEBUG] [18128]: the similarity between the statement "test" and the statement "test" is 1.0
-2019-08-20 16:56:25 [chatbot] [chatbot.py:106] [INFO] [18128]: "chatbot.adapter.BestMatch" adapter select "1" answers
-2019-08-20 16:56:25 [chatbot] [chatbot.py:110] [INFO] [18128]: "chatbot.adapter.BestMatch" adapter select the answer to the "test" question as a reply, the confidence is 1.0
-2019-08-20 16:56:25 [chatbot] [chatbot.py:117] [INFO] [18128]: the similarity is 1.0 higher than the maximum_similarity_threshold parameter, stop matching.
-2019-08-20 16:56:25 [chatbot] [conversation.py:109] [INFO] [18128]: Call the function "re.split" to get the answer, all the parameters of the function are "OrderedDict([('pattern', ':'), ('string', '1:2:3:4'), ('maxsplit', 0), ('flags', 0)])"
-2019-08-20 16:56:25 [chatbot] [chatbot.py:142] [INFO] [18128]: finally the response of the "test" statement is "{'text': ['1', '2', '3', '4'], 'context': {'domain': False}}"
-2019-08-20 16:56:25 [chatbot] [chatbot.py:87] [INFO] [18128]: the processing the statement "早上吃鸡蛋对身体好吗"
-2019-08-20 16:56:25 [chatbot] [chatbot.py:92] [INFO] [18128]: after the preprocessor "chatbot.preprocessor.clean_whitespace" processing, the statement becomes "早上吃鸡蛋对身体好吗"
-2019-08-20 16:56:25 [chatbot] [chatbot.py:147] [INFO] [18128]: not processing the statement using "chatbot.adapter.WhatCanIDo"
-2019-08-20 16:56:25 [chatbot] [chatbot.py:147] [INFO] [18128]: not processing the statement using "chatbot.adapter.DomainManager"
-2019-08-20 16:56:25 [chatbot] [chatbot.py:103] [INFO] [18128]: "chatbot.adapter.BestMatch" adapter starts matching
-2019-08-20 16:56:25 [chatbot] [adapter.py:145] [INFO] [18128]: the keyword of the "早上吃鸡蛋对身体好吗" statement is "鸡蛋,早上,身体"
-2019-08-20 16:56:25 [chatbot] [adapter.py:167] [INFO] [18128]: use keywords to find "1" pieces of data and use it for comparison
-2019-08-20 16:56:25 [chatbot] [adapter.py:183] [DEBUG] [18128]: the similarity between the statement "早上吃鸡蛋对身体好吗" and the statement "早上吃鸡蛋对身体好吗" is 1.0
-2019-08-20 16:56:25 [chatbot] [chatbot.py:106] [INFO] [18128]: "chatbot.adapter.BestMatch" adapter select "1" answers
-2019-08-20 16:56:25 [chatbot] [chatbot.py:110] [INFO] [18128]: "chatbot.adapter.BestMatch" adapter select the answer to the "早上吃鸡蛋对身体好吗" question as a reply, the confidence is 1.0
-2019-08-20 16:56:25 [chatbot] [chatbot.py:117] [INFO] [18128]: the similarity is 1.0 higher than the maximum_similarity_threshold parameter, stop matching.
-2019-08-20 16:56:25 [chatbot] [chatbot.py:142] [INFO] [18128]: finally the response of the "早上吃鸡蛋对身体好吗" statement is "{'text': '早餐当中吃鸡蛋，的确是对身体有很大的益处', 'context': {'domain': False}}"
-2019-08-20 16:56:25 [chatbot] [chatbot.py:209] [INFO] [18128]: add "re.split" as the answer to "domain test"
-2019-08-20 16:56:25 [chatbot] [chatbot.py:87] [INFO] [18128]: the processing the statement "domain test"
-2019-08-20 16:56:25 [chatbot] [chatbot.py:92] [INFO] [18128]: after the preprocessor "chatbot.preprocessor.clean_whitespace" processing, the statement becomes "domain test"
-2019-08-20 16:56:25 [chatbot] [chatbot.py:147] [INFO] [18128]: not processing the statement using "chatbot.adapter.WhatCanIDo"
-2019-08-20 16:56:25 [chatbot] [chatbot.py:147] [INFO] [18128]: not processing the statement using "chatbot.adapter.DomainManager"
-2019-08-20 16:56:25 [chatbot] [chatbot.py:103] [INFO] [18128]: "chatbot.adapter.BestMatch" adapter starts matching
-2019-08-20 16:56:25 [chatbot] [adapter.py:145] [INFO] [18128]: the keyword of the "domain test" statement is "domain,test"
-2019-08-20 16:56:25 [chatbot] [adapter.py:167] [INFO] [18128]: use keywords to find "2" pieces of data and use it for comparison
-2019-08-20 16:56:25 [chatbot] [adapter.py:183] [DEBUG] [18128]: the similarity between the statement "domain test" and the statement "test" is 0.53
-2019-08-20 16:56:25 [chatbot] [adapter.py:183] [DEBUG] [18128]: the similarity between the statement "domain test" and the statement "domain test" is 1.0
-2019-08-20 16:56:25 [chatbot] [chatbot.py:106] [INFO] [18128]: "chatbot.adapter.BestMatch" adapter select "1" answers
-2019-08-20 16:56:25 [chatbot] [chatbot.py:110] [INFO] [18128]: "chatbot.adapter.BestMatch" adapter select the answer to the "domain test" question as a reply, the confidence is 1.0
-2019-08-20 16:56:25 [chatbot] [chatbot.py:117] [INFO] [18128]: the similarity is 1.0 higher than the maximum_similarity_threshold parameter, stop matching.
-2019-08-20 16:56:25 [chatbot] [chatbot.py:142] [INFO] [18128]: finally the response of the "domain test" statement is "{'text': '请提供pattern', 'context': {'id': 3, 'question': 'domain test', 'reference_question': 'domain test', 'confidence': 1.0, 'answer': 're.split', 'category': '其他', 'type': 1, 'parameters': OrderedDict([('pattern', None), ('string', None), ('maxsplit', 0), ('flags', 0)]), 'extractor': 'chatbot.extractor.Extractor', 'need_extract_parameter': 'pattern', 'need_extract_parameter_count': 0, 'domain': True}}"
-2019-08-20 16:56:25 [chatbot] [chatbot.py:87] [INFO] [18128]: the processing the statement ":"
-2019-08-20 16:56:25 [chatbot] [chatbot.py:92] [INFO] [18128]: after the preprocessor "chatbot.preprocessor.clean_whitespace" processing, the statement becomes ":"
-2019-08-20 16:56:25 [chatbot] [chatbot.py:147] [INFO] [18128]: not processing the statement using "chatbot.adapter.WhatCanIDo"
-2019-08-20 16:56:25 [chatbot] [chatbot.py:103] [INFO] [18128]: "chatbot.adapter.DomainManager" adapter starts matching
-2019-08-20 16:56:25 [chatbot] [adapter.py:243] [INFO] [18128]: get the value of the "pattern" parameter using "chatbot.extractor.Extractor.extract_general" method
-2019-08-20 16:56:25 [chatbot] [adapter.py:249] [INFO] [18128]: the value is ":"
-2019-08-20 16:56:25 [chatbot] [chatbot.py:106] [INFO] [18128]: "chatbot.adapter.DomainManager" adapter select "1" answers
-2019-08-20 16:56:25 [chatbot] [chatbot.py:110] [INFO] [18128]: "chatbot.adapter.DomainManager" adapter select the answer to the "domain test" question as a reply, the confidence is 1.0
-2019-08-20 16:56:25 [chatbot] [chatbot.py:117] [INFO] [18128]: the similarity is 1.0 higher than the maximum_similarity_threshold parameter, stop matching.
-2019-08-20 16:56:25 [chatbot] [chatbot.py:142] [INFO] [18128]: finally the response of the ":" statement is "{'text': '请提供string', 'context': {'id': 3, 'question': 'domain test', 'reference_question': 'domain test', 'confidence': 1.0, 'answer': 're.split', 'category': '其他', 'type': 1, 'parameters': OrderedDict([('pattern', ':'), ('string', None), ('maxsplit', 0), ('flags', 0)]), 'extractor': 'chatbot.extractor.Extractor', 'need_extract_parameter': 'string', 'need_extract_parameter_count': 0, 'domain': True}}"
-2019-08-20 16:56:25 [chatbot] [chatbot.py:87] [INFO] [18128]: the processing the statement "1:2:3"
-2019-08-20 16:56:25 [chatbot] [chatbot.py:92] [INFO] [18128]: after the preprocessor "chatbot.preprocessor.clean_whitespace" processing, the statement becomes "1:2:3"
-2019-08-20 16:56:25 [chatbot] [chatbot.py:147] [INFO] [18128]: not processing the statement using "chatbot.adapter.WhatCanIDo"
-2019-08-20 16:56:25 [chatbot] [chatbot.py:103] [INFO] [18128]: "chatbot.adapter.DomainManager" adapter starts matching
-2019-08-20 16:56:25 [chatbot] [adapter.py:243] [INFO] [18128]: get the value of the "string" parameter using "chatbot.extractor.Extractor.extract_general" method
-2019-08-20 16:56:25 [chatbot] [adapter.py:249] [INFO] [18128]: the value is "1:2:3"
-2019-08-20 16:56:25 [chatbot] [chatbot.py:106] [INFO] [18128]: "chatbot.adapter.DomainManager" adapter select "1" answers
-2019-08-20 16:56:25 [chatbot] [chatbot.py:110] [INFO] [18128]: "chatbot.adapter.DomainManager" adapter select the answer to the "domain test" question as a reply, the confidence is 1.0
-2019-08-20 16:56:25 [chatbot] [chatbot.py:117] [INFO] [18128]: the similarity is 1.0 higher than the maximum_similarity_threshold parameter, stop matching.
-2019-08-20 16:56:25 [chatbot] [conversation.py:109] [INFO] [18128]: Call the function "re.split" to get the answer, all the parameters of the function are "OrderedDict([('pattern', ':'), ('string', '1:2:3'), ('maxsplit', 0), ('flags', 0)])"
-2019-08-20 16:56:25 [chatbot] [chatbot.py:142] [INFO] [18128]: finally the response of the "1:2:3" statement is "{'text': ['1', '2', '3'], 'context': {'domain': False}}"
-2019-08-20 16:56:26 [chatbot] [extractor.py:60] [DEBUG] [18128]: "获取ip地址为1.1.1.1的主机的磁盘空间使用率" statement after the word segmentation is "[('获取', 'v'), ('ip地址', 'x'), ('1.1.1.1', 'm'), ('主机', 'b'), ('磁盘空间', 'n'), ('使用率', 'n')]"
-2019-08-20 16:56:26 [chatbot] [extractor.py:60] [DEBUG] [18128]: "获取1.1.1.1主机的磁盘空间使用率" statement after the word segmentation is "[('获取', 'v'), ('1.1.1.1', 'm'), ('主机', 'b'), ('磁盘空间', 'n'), ('使用率', 'n')]"
+2019-08-21 16:06:54 [chatbot] [adapter.py:145] [INFO] [17628]: the keyword of the "今天天气如何?" statement is "今天天气"
+2019-08-21 16:06:54 [chatbot] [adapter.py:160] [INFO] [17628]: unable to find database data using keywords, change to full library comparison
+2019-08-21 16:06:54 [chatbot] [adapter.py:145] [INFO] [17628]: the keyword of the "今天天气如何?" statement is "今天天气"
+2019-08-21 16:06:54 [chatbot] [adapter.py:160] [INFO] [17628]: unable to find database data using keywords, change to full library comparison
+2019-08-21 16:06:54 [chatbot] [chatbot.py:209] [INFO] [17628]: add "re.split" as the answer to "test"
+2019-08-21 16:06:54 [chatbot] [chatbot.py:209] [INFO] [17628]: add "早餐当中吃鸡蛋，的确是对身体有很大的益处" as the answer to "早上吃鸡蛋对身体好吗"
+2019-08-21 16:06:54 [chatbot] [chatbot.py:87] [INFO] [17628]: the processing the statement "test"
+2019-08-21 16:06:54 [chatbot] [chatbot.py:92] [INFO] [17628]: after the preprocessor "chatbot.preprocessor.clean_whitespace" processing, the statement becomes "test"
+2019-08-21 16:06:54 [chatbot] [chatbot.py:147] [INFO] [17628]: not processing the statement using "chatbot.adapter.WhatCanIDo"
+2019-08-21 16:06:54 [chatbot] [chatbot.py:147] [INFO] [17628]: not processing the statement using "chatbot.adapter.DomainManager"
+2019-08-21 16:06:54 [chatbot] [chatbot.py:103] [INFO] [17628]: "chatbot.adapter.BestMatch" adapter starts matching
+2019-08-21 16:06:54 [chatbot] [adapter.py:145] [INFO] [17628]: the keyword of the "test" statement is "test"
+2019-08-21 16:06:54 [chatbot] [adapter.py:167] [INFO] [17628]: use keywords to find "1" pieces of data and use it for comparison
+2019-08-21 16:06:54 [chatbot] [chatbot.py:106] [INFO] [17628]: "chatbot.adapter.BestMatch" adapter select "1" answers
+2019-08-21 16:06:54 [chatbot] [chatbot.py:110] [INFO] [17628]: "chatbot.adapter.BestMatch" adapter select the answer to the "test" question as a reply, the confidence is 1.0
+2019-08-21 16:06:54 [chatbot] [chatbot.py:117] [INFO] [17628]: the similarity is 1.0 higher than the maximum_similarity_threshold parameter, stop matching.
+2019-08-21 16:06:54 [chatbot] [conversation.py:109] [INFO] [17628]: Call the function "re.split" to get the answer, all the parameters of the function are "OrderedDict([('pattern', ':'), ('string', '1:2:3:4'), ('maxsplit', 0), ('flags', 0)])"
+2019-08-21 16:06:54 [chatbot] [chatbot.py:142] [INFO] [17628]: finally the response of the "test" statement is "{'text': ['1', '2', '3', '4'], 'context': {'domain': False}}"
+2019-08-21 16:06:54 [chatbot] [chatbot.py:87] [INFO] [17628]: the processing the statement "早上吃鸡蛋对身体好吗"
+2019-08-21 16:06:54 [chatbot] [chatbot.py:92] [INFO] [17628]: after the preprocessor "chatbot.preprocessor.clean_whitespace" processing, the statement becomes "早上吃鸡蛋对身体好吗"
+2019-08-21 16:06:54 [chatbot] [chatbot.py:147] [INFO] [17628]: not processing the statement using "chatbot.adapter.WhatCanIDo"
+2019-08-21 16:06:54 [chatbot] [chatbot.py:147] [INFO] [17628]: not processing the statement using "chatbot.adapter.DomainManager"
+2019-08-21 16:06:54 [chatbot] [chatbot.py:103] [INFO] [17628]: "chatbot.adapter.BestMatch" adapter starts matching
+2019-08-21 16:06:54 [chatbot] [adapter.py:145] [INFO] [17628]: the keyword of the "早上吃鸡蛋对身体好吗" statement is "鸡蛋,早上,身体"
+2019-08-21 16:06:54 [chatbot] [adapter.py:167] [INFO] [17628]: use keywords to find "1" pieces of data and use it for comparison
+2019-08-21 16:06:54 [chatbot] [chatbot.py:106] [INFO] [17628]: "chatbot.adapter.BestMatch" adapter select "1" answers
+2019-08-21 16:06:54 [chatbot] [chatbot.py:110] [INFO] [17628]: "chatbot.adapter.BestMatch" adapter select the answer to the "早上吃鸡蛋对身体好吗" question as a reply, the confidence is 1.0
+2019-08-21 16:06:54 [chatbot] [chatbot.py:117] [INFO] [17628]: the similarity is 1.0 higher than the maximum_similarity_threshold parameter, stop matching.
+2019-08-21 16:06:54 [chatbot] [chatbot.py:142] [INFO] [17628]: finally the response of the "早上吃鸡蛋对身体好吗" statement is "{'text': '早餐当中吃鸡蛋，的确是对身体有很大的益处', 'context': {'domain': False}}"
+2019-08-21 16:06:54 [chatbot] [chatbot.py:209] [INFO] [17628]: add "re.split" as the answer to "domain test"
+2019-08-21 16:06:54 [chatbot] [chatbot.py:87] [INFO] [17628]: the processing the statement "domain test"
+2019-08-21 16:06:54 [chatbot] [chatbot.py:92] [INFO] [17628]: after the preprocessor "chatbot.preprocessor.clean_whitespace" processing, the statement becomes "domain test"
+2019-08-21 16:06:54 [chatbot] [chatbot.py:147] [INFO] [17628]: not processing the statement using "chatbot.adapter.WhatCanIDo"
+2019-08-21 16:06:54 [chatbot] [chatbot.py:147] [INFO] [17628]: not processing the statement using "chatbot.adapter.DomainManager"
+2019-08-21 16:06:54 [chatbot] [chatbot.py:103] [INFO] [17628]: "chatbot.adapter.BestMatch" adapter starts matching
+2019-08-21 16:06:54 [chatbot] [adapter.py:145] [INFO] [17628]: the keyword of the "domain test" statement is "domain,test"
+2019-08-21 16:06:54 [chatbot] [adapter.py:167] [INFO] [17628]: use keywords to find "2" pieces of data and use it for comparison
+2019-08-21 16:06:54 [chatbot] [chatbot.py:106] [INFO] [17628]: "chatbot.adapter.BestMatch" adapter select "1" answers
+2019-08-21 16:06:54 [chatbot] [chatbot.py:110] [INFO] [17628]: "chatbot.adapter.BestMatch" adapter select the answer to the "domain test" question as a reply, the confidence is 1.0
+2019-08-21 16:06:54 [chatbot] [chatbot.py:117] [INFO] [17628]: the similarity is 1.0 higher than the maximum_similarity_threshold parameter, stop matching.
+2019-08-21 16:06:54 [chatbot] [chatbot.py:142] [INFO] [17628]: finally the response of the "domain test" statement is "{'text': '请提供pattern', 'context': {'id': 3, 'question': 'domain test', 'reference_question': 'domain test', 'confidence': 1.0, 'answer': 're.split', 'category': '其他', 'type': 1, 'parameters': OrderedDict([('pattern', None), ('string', None), ('maxsplit', 0), ('flags', 0)]), 'extractor': 'chatbot.extractor.Extractor', 'need_extract_parameter': 'pattern', 'need_extract_parameter_count': 0, 'domain': True}}"
+2019-08-21 16:06:54 [chatbot] [chatbot.py:87] [INFO] [17628]: the processing the statement ":"
+2019-08-21 16:06:54 [chatbot] [chatbot.py:92] [INFO] [17628]: after the preprocessor "chatbot.preprocessor.clean_whitespace" processing, the statement becomes ":"
+2019-08-21 16:06:54 [chatbot] [chatbot.py:147] [INFO] [17628]: not processing the statement using "chatbot.adapter.WhatCanIDo"
+2019-08-21 16:06:54 [chatbot] [chatbot.py:103] [INFO] [17628]: "chatbot.adapter.DomainManager" adapter starts matching
+2019-08-21 16:06:54 [chatbot] [adapter.py:243] [INFO] [17628]: get the value of the "pattern" parameter using "chatbot.extractor.Extractor.extract_general" method
+2019-08-21 16:06:54 [chatbot] [adapter.py:249] [INFO] [17628]: the value is ":"
+2019-08-21 16:06:54 [chatbot] [chatbot.py:106] [INFO] [17628]: "chatbot.adapter.DomainManager" adapter select "1" answers
+2019-08-21 16:06:54 [chatbot] [chatbot.py:110] [INFO] [17628]: "chatbot.adapter.DomainManager" adapter select the answer to the "domain test" question as a reply, the confidence is 1.0
+2019-08-21 16:06:54 [chatbot] [chatbot.py:117] [INFO] [17628]: the similarity is 1.0 higher than the maximum_similarity_threshold parameter, stop matching.
+2019-08-21 16:06:54 [chatbot] [chatbot.py:142] [INFO] [17628]: finally the response of the ":" statement is "{'text': '请提供string', 'context': {'id': 3, 'question': 'domain test', 'reference_question': 'domain test', 'confidence': 1.0, 'answer': 're.split', 'category': '其他', 'type': 1, 'parameters': OrderedDict([('pattern', ':'), ('string', None), ('maxsplit', 0), ('flags', 0)]), 'extractor': 'chatbot.extractor.Extractor', 'need_extract_parameter': 'string', 'need_extract_parameter_count': 0, 'domain': True}}"
+2019-08-21 16:06:54 [chatbot] [chatbot.py:87] [INFO] [17628]: the processing the statement "1:2:3"
+2019-08-21 16:06:54 [chatbot] [chatbot.py:92] [INFO] [17628]: after the preprocessor "chatbot.preprocessor.clean_whitespace" processing, the statement becomes "1:2:3"
+2019-08-21 16:06:54 [chatbot] [chatbot.py:147] [INFO] [17628]: not processing the statement using "chatbot.adapter.WhatCanIDo"
+2019-08-21 16:06:54 [chatbot] [chatbot.py:103] [INFO] [17628]: "chatbot.adapter.DomainManager" adapter starts matching
+2019-08-21 16:06:54 [chatbot] [adapter.py:243] [INFO] [17628]: get the value of the "string" parameter using "chatbot.extractor.Extractor.extract_general" method
+2019-08-21 16:06:54 [chatbot] [adapter.py:249] [INFO] [17628]: the value is "1:2:3"
+2019-08-21 16:06:54 [chatbot] [chatbot.py:106] [INFO] [17628]: "chatbot.adapter.DomainManager" adapter select "1" answers
+2019-08-21 16:06:54 [chatbot] [chatbot.py:110] [INFO] [17628]: "chatbot.adapter.DomainManager" adapter select the answer to the "domain test" question as a reply, the confidence is 1.0
+2019-08-21 16:06:54 [chatbot] [chatbot.py:117] [INFO] [17628]: the similarity is 1.0 higher than the maximum_similarity_threshold parameter, stop matching.
+2019-08-21 16:06:54 [chatbot] [conversation.py:109] [INFO] [17628]: Call the function "re.split" to get the answer, all the parameters of the function are "OrderedDict([('pattern', ':'), ('string', '1:2:3'), ('maxsplit', 0), ('flags', 0)])"
+2019-08-21 16:06:54 [chatbot] [chatbot.py:142] [INFO] [17628]: finally the response of the "1:2:3" statement is "{'text': ['1', '2', '3'], 'context': {'domain': False}}"
