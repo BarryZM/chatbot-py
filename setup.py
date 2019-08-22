@@ -4,7 +4,7 @@ import os
 
 PROJECT_ROOT, _ = os.path.split(__file__)
 PROJECT_NAME = 'chatbot-py'
-VERSION = '2.62'
+VERSION = '2.63'
 PROJECT_AUTHORS = 'lb'
 PROJECT_EMAILS = '423497786@qq.com'
 PROJECT_URL = 'https://github.com/lin423497786/chatbot-py'
